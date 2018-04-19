@@ -25,7 +25,7 @@ div.colomns-area,
 strong.navigation-bar__profile-account,
 .muted .status__content a, .muted .status__content p, .muted .status__display-name strong,
 .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter{
-	color: #28160e
+    color: #28160e
 }
 
 span,
@@ -44,7 +44,7 @@ i.fa,
 .status__prepend .status__display-name strong,
 .reply-indicator__content a, .status__content a,
 .attachment-list__list a{
-	color: #6e3c3c;
+    color: #6e3c3c;
 }
 
 .status.status-direct、
@@ -81,7 +81,7 @@ i.fa,
 .compose-form .autosuggest-textarea__textarea, 
 .compose-form .spoiler-input__input,
 .compose-form .compose-form__modifiers .compose-form__upload-wrapper{
-	background: #d6cbc9;
+    background: #d6cbc9;
 }
 
 
@@ -92,7 +92,7 @@ nav.drawer__header{
 }
 
 input.search__input{
-	background: #c3b7b4;
+    background: #c3b7b4;
     border-radius: 5px;
     color: #6e3c3c;
 }
@@ -100,14 +100,14 @@ input.search__input{
 .column-header__wrapper{
     background: #b7a0a0;
     border-top-left-radius: 5px;
-  	border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 h1.column-header{
     background: #b7a0a0;
     color: #6e3c3c;
     border-top-left-radius: 5px;
-  	border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .column>.scrollable{
@@ -117,12 +117,12 @@ h1.column-header{
 
 .column-subheading,
 .column-link{
-	background: #c3b7b4;
+    background: #c3b7b4;
     color: #28160e;
 }
 
 .column-link:hover{
-	background: #b7a0a0;
+    background: #b7a0a0;
     color: #28160e
 }
 
@@ -142,22 +142,22 @@ h1.column-header{
 }
 
 .search-results__section h5 span{
-	background: #b7a0a0;
-	color: #28160e;
+    background: #b7a0a0;
+    color: #28160e;
 }
 
 textarea.autosuggest-textarea__textarea{
-	background: #d6cbc9;
+    background: #d6cbc9;
     color: #d6cbc9;
 }
 
 .button.button--block{
-	background: #b7a0a0;
+    background: #b7a0a0;
     color: #6e3c3c;      
 }
 
 button.status__action-bar-button.star-icon.icon-button.active > i{
-	color: #ca8f04;
+    color: #ca8f04;
 }
 
 
