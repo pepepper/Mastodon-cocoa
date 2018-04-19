@@ -95,7 +95,8 @@ i.fa,
 .column-header__back-button,
 .reply-indicator,
 .admin-wrapper .sidebar ul a.selected,
-.table>tbody>tr:nth-child(odd)>td, .table>tbody>tr:nth-child(odd)>th{
+.table>tbody>tr:nth-child(odd)>td, .table>tbody>tr:nth-child(odd)>th,
+.flash-message{
     background: #b7a0a0;
 }
 
@@ -105,7 +106,9 @@ i.fa,
 	background: #d6cbc9;
 }
 
-
+.flash-message{
+	color: #28160e;
+}
 
 nav.drawer__header{
     border-radius: 5px;
