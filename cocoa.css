@@ -1,6 +1,7 @@
 /* 背景の置換 */
 div.ui,
-.admin-wrapper, .admin-wrapper .sidebar-wrapper{
+.admin-wrapper, .admin-wrapper .sidebar-wrapper,
+.modal-layout, .modal-layout__mastodon{
     background: #978585;
 }
 
