@@ -1,7 +1,8 @@
 /* 背景の置換 */
 div.ui,
 .admin-wrapper, .admin-wrapper .sidebar-wrapper,
-.modal-layout, .modal-layout__mastodon{
+.modal-layout, .modal-layout__mastodon,
+.no-reduce-motion{
     background: #978585;
 }
 
@@ -161,7 +162,9 @@ h1.column-header{
 .reply-indicator__content .status__content__spoiler-link, 
 .status__content .status__content__spoiler-link,
 .reply-indicator__content .status__content__spoiler-link, 
-.status__content .status__content__spoiler-link:hover{
+.status__content .status__content__spoiler-link:hover,
+.activity-stream .detailed-status.light .status__content a.status__content__spoiler-link,
+.activity-stream .detailed-status.light .status__content a.status__content__spoiler-link:hover{
     background: #b7a0a0;
     color: #6e3c3c;
 }
@@ -187,9 +190,6 @@ a.button:hover{
 	background-color: #b7a0a0;
 }
 
-button.status__action-bar-button.star-icon.icon-button.active > i{
-	color: #ca8f04;
-}
 
 .admin-wrapper .sidebar ul ul a.selected,
 .admin-wrapper .sidebar ul ul a.selected:hover{
@@ -197,6 +197,10 @@ button.status__action-bar-button.star-icon.icon-button.active > i{
     color: #c3b7b4;
 }
 
+/* 星の色変更 */
+button.status__action-bar-button.star-icon.icon-button.active > i{
+	color: #ca8f04;
+}
 
 /* ボタンの置換 */
 button.icon-button i.fa-retweet {
