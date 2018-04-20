@@ -102,7 +102,8 @@ i.fa,
 
 .compose-form .autosuggest-textarea__textarea, 
 .compose-form .spoiler-input__input,
-.compose-form .compose-form__modifiers .compose-form__upload-wrapper{
+.compose-form .compose-form__modifiers .compose-form__upload-wrapper,
+.status.status-direct{
 	background: #d6cbc9;
 }
 
