@@ -7,6 +7,7 @@ div.ui,
 }
 
 
+/* 1番あかるい茶色(背景) */
 div.colomns-area,
 .getting-started,
 .empty-column-indicator, .error-column,
@@ -32,6 +33,7 @@ div.colomns-area,
     background: #c3b7b4;
 }
 
+
 strong.navigation-bar__profile-account,
 .muted .status__content a, .muted .status__content p, .muted .status__display-name strong,
 .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter,
@@ -43,7 +45,8 @@ strong.navigation-bar__profile-account,
 .admin-wrapper .content .muted-hint,
 .simple_form strong:lang(ja), .simple_form strong:lang(ko), .simple_form strong:lang(zh-CN), .simple_form strong:lang(zh-HK), .simple_form strong:lang(zh-TW),
 .simple_form p.hint,
-.admin-wrapper .content>p{
+.admin-wrapper .content>p,
+.column-link__badge, .column-subheading{
 	color: #28160e
 }
 
@@ -67,6 +70,7 @@ i.fa,
 	color: #6e3c3c;
 }
 
+/* 濃い茶色(背景) */
 .status.status-direct、
 .column-header__back-button,
 .column-back-button--slim-button,
@@ -97,7 +101,8 @@ i.fa,
 .reply-indicator,
 .admin-wrapper .sidebar ul a.selected,
 .table>tbody>tr:nth-child(odd)>td, .table>tbody>tr:nth-child(odd)>th,
-.flash-message{
+.flash-message,
+.column-link__badge, .column-subheading{
     background: #b7a0a0;
 }
 
