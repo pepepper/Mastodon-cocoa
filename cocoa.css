@@ -29,7 +29,8 @@ div.colomns-area,
 .admin-wrapper .sidebar ul:hover,
 .admin-wrapper .sidebar ul ul a:hover,
 .admin-wrapper .sidebar ul ul:hover,
-.admin-wrapper .sidebar ul a:hover{
+.admin-wrapper .sidebar ul a:hover,
+.account--panel{
     background: #c3b7b4;
 }
 
