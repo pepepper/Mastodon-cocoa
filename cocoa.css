@@ -30,11 +30,14 @@ div.colomns-area,
 .admin-wrapper .sidebar ul ul a:hover,
 .admin-wrapper .sidebar ul ul:hover,
 .admin-wrapper .sidebar ul a:hover,
-.account--panel{
+.account--panel,
+.account__header .account__header__fields dd,
+.card .card__bio{
     background: #c3b7b4;
 }
 
 
+/* 文字色 */
 strong.navigation-bar__profile-account,
 .muted .status__content a, .muted .status__content p, .muted .status__display-name strong,
 .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter,
@@ -47,7 +50,12 @@ strong.navigation-bar__profile-account,
 .simple_form strong:lang(ja), .simple_form strong:lang(ko), .simple_form strong:lang(zh-CN), .simple_form strong:lang(zh-HK), .simple_form strong:lang(zh-TW),
 .simple_form p.hint,
 .admin-wrapper .content>p,
-.column-link__badge, .column-subheading{
+.column-link__badge, .column-subheading,
+.account__header .account__header__fields dt,
+.account__header .account__header__fields dd,
+.account__header__content p:last-child,
+.account__header__fields dd,
+.account__header__fields dt{
 	color: #28160e
 }
 
@@ -103,7 +111,9 @@ i.fa,
 .admin-wrapper .sidebar ul a.selected,
 .table>tbody>tr:nth-child(odd)>td, .table>tbody>tr:nth-child(odd)>th,
 .flash-message,
-.column-link__badge, .column-subheading{
+.column-link__badge, .column-subheading,
+.account__header .account__header__fields dt,
+.account__header__fields dt{
     background: #b7a0a0;
 }
 
