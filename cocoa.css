@@ -55,9 +55,11 @@ strong.navigation-bar__profile-account,
 .account__header .account__header__fields dd,
 .account__header__content p:last-child,
 .account__header__fields dd,
-.account__header__fields dt{
+.account__header__fields dt,
+.admin-wrapper .sidebar ul a{
 	color: #28160e
 }
+
 
 span,
 i.fa,
@@ -75,7 +77,10 @@ i.fa,
 .status__prepend .status__display-name strong,
 .reply-indicator__content a, .status__content a,
 .attachment-list__list a,
-.table a{
+.table a,
+.simple_form textarea::placeholder,
+.simple_form input::placeholder,
+.search__input::placeholder{
 	color: #6e3c3c;
 }
 
@@ -212,6 +217,16 @@ a.button:hover{
     background: #b7a0a0;
     color: #c3b7b4;
 }
+
+.simple_form input[type=email], 
+.simple_form input[type=number], 
+.simple_form input[type=password], 
+.simple_form input[type=text], 
+.simple_form textarea{
+    border-bottom: 2px solid #b7a0a0;
+}
+
+
 
 /* 星の色変更 */
 button.status__action-bar-button.star-icon.icon-button.active > i{
