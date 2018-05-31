@@ -61,6 +61,17 @@ strong.navigation-bar__profile-account,
 }
 
 
+
+.account__header p:nth-child(2),
+.account__header .account__header__content{
+	color: #FFFFFF;
+}
+
+.account__header p:nth-child(1) span{
+    color: #2b90d9;
+}
+
+
 span,
 i.fa,
 .text-icon-button,
