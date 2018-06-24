@@ -61,6 +61,9 @@ strong.navigation-bar__profile-account,
 }
 
 
+.account__header__content p:last-child{
+    color: #FFFFFF;
+}
 
 .account__header p:nth-child(2),
 .account__header .account__header__content{
@@ -91,7 +94,8 @@ i.fa,
 .table a,
 .simple_form textarea::placeholder,
 .simple_form input::placeholder,
-.search__input::placeholder{
+.search__input::placeholder,
+.status-card.horizontal .status-card__title{
 	color: #6e3c3c;
 }
 
@@ -190,6 +194,12 @@ h1.column-header{
     color: #28160e;
     font-weight: bolder;
 }
+
+i.fa.fa-play,
+i.fa.fa-external-link{
+	color: #9baec8;
+}
+
 
 .reply-indicator__content .status__content__spoiler-link, 
 .status__content .status__content__spoiler-link,
