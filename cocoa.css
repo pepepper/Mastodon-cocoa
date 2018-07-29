@@ -133,7 +133,10 @@ i.fa,
 .flash-message,
 .column-link__badge, .column-subheading,
 .account__header .account__header__fields dt,
-.account__header__fields dt{
+.account__header__fields dt,
+.focusable:focus,
+.focusable:focus .detailed-status__action-bar,
+.focusable:focus .detailed-status{
     background: #b7a0a0;
 }
 
