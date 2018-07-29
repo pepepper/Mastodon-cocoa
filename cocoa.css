@@ -136,7 +136,8 @@ i.fa,
 .account__header__fields dt,
 .focusable:focus,
 .focusable:focus .detailed-status__action-bar,
-.focusable:focus .detailed-status{
+.focusable:focus .detailed-status,
+.focusable:focus .status.status-direct{
     background: #b7a0a0;
 }
 
